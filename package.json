@@ -1,19 +1,15 @@
 {
-    "name":"Template plugin",
-    "description": "Custom templates plugin",
-    "version": "1.0.0",
-    "author": "Chandravijay Rai",
-    "repository": "https://github.com/Cvr421/Monokle_Template_plugin.git",
-    "monoklePlugin":{
-        "id":"com.github.Chandravijay rai.plugin.templates",
-        "helpUrl":"https://github.com/Cvr421/Monokle_Template_plugin.git",
-        "module":[
-            {
-            "types":"template",
-            "path":"basic-pod-template"
-        }
-    ]
-    }
-
-
+	"name": "Templates plugin",
+	"description": "Custom templates plugin",
+	"version": "1.0.0",
+	"author": "Chandravijay",
+	"repository": "https://github.com/Cvr421/Monokle_Template_plugin",
+	"monoklePlugin": {
+		"id": "com.github.Chandravijay.plugin.templates",
+		"helpUrl": "https://github.com/Cvr421/Monokle_Template_plugin",
+		"modules": [{
+			"type": "template",
+			"path": "basic-pod-template"
+		}]
+	}
 }
