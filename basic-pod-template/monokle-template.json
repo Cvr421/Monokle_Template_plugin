@@ -1,0 +1,24 @@
+{
+    "name":"Basic kubernetes pod",
+    "id":"com.github.Chandravijay.plugin.template.basic-pod-template",
+    "author":"Chandravijay Rai",
+    "version":"1.0.0",
+    "discription":"Creates a Pod for a specified Image",
+    "repository":"",
+    "type":"vanilla",
+    "forms":[
+        {
+            "name":"pod Settings",
+            "description":"Specify the Settings for your Pod",
+            "schema":"form-schema.json",
+            "uiSchema":"form-ui-schema.json"
+        }
+    ],
+    "manifests":[
+        {
+            "filePath":"template.yaml"
+        }
+    ],
+    "resultMessage":"Pod resource created successfully!",
+    "helpUrl":"https://github.com/Cvr421/Monokle_Template_plugin.git"
+}

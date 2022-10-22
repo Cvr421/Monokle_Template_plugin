@@ -1,0 +1,17 @@
+{
+    "name":"Template plugins",
+    "description": "Custom templates plugin",
+    "version": "1.0.0",
+    "author": "Chandravijay Rai",
+    "repository": "https://github.com/Cvr421/Monokle_Template_plugin.git",
+    "monoklePlugin":{
+        "module":[
+            {
+            "types":"template",
+            "path":"basic-pod-template"
+        }
+    ]
+    }
+
+
+}
